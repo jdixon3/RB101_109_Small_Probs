@@ -1,24 +1,6 @@
 
-sun = ['visible', 'hidden'].sample
 
-if sun == 'visible'
-  puts "it gon be sunny hoy!"
-else 
-  puts "it gon be cloudy hoy!"
-end 
+colors = 'blue pink yellow orange'
 
-
-
-# def weather(cloudy)
-#   if cloudy == 'visible'
-#     puts 'The sun is so bright!'
-#   else 
-#     puts "It gon be a little cloudy hoy!"
-# end 
-# end 
-
-# sun = ['visible', 'hidden'].sample
-
-# weather(sun)
-
-
+puts colors.include?('yellow')
+puts colors.include?('purple')

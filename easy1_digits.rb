@@ -2,11 +2,11 @@
 
 #original solution 
 
-# def digit_list(number)
-#   number.digits.reverse
-# end 
+def digit_list(number)
+  number.digits.reverse
+end 
 
-# p digit_list(12345)
+digit_list(12345)
 
 
 
@@ -27,8 +27,8 @@
 
 #solution given 
 
-def digit_list(number)
-  number.to_s.chars.map(&:to_i)
-end 
+# def digit_list(number)
+#   number.to_s.chars.map(&:to_i)
+# end 
 
-p digit_list(12345)
+# p digit_list(12345)

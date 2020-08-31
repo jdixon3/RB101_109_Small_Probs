@@ -1,12 +1,7 @@
 
-
 require 'date'
 
-
-d = Date.parse('3rd Feb 2001')
-
-puts d.year
-puts d.mon
-puts d.mday
-puts d.wday
-puts d += 1
+puts Date.new
+puts Date.new(2016)
+puts Date.new(2016, 5)
+puts Date.new(2016, 5, 13)
