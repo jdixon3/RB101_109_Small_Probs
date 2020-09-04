@@ -1,6 +1,4 @@
 
-
-
 # Access CORE then scroll down to Path (File) under methods
 
 # File.path (class methods call on class) 
